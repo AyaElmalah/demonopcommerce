@@ -1,0 +1,4 @@
+file:src/main/resources/features/F04_Search.feature:12:13:14
+file:src/main/resources/features/F02_Login.feature:5
+file:src/main/resources/features/F05_hoverCategories.feature:3
+file:src/main/resources/features/F01_Register.feature:3
