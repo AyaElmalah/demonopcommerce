@@ -39,7 +39,7 @@ register.gender().click();
   }
     @And("user enter email \"test@example.com\" field")
     public void enter_email() {
-        register.email().sendKeys("test105@example.com");
+        register.email().sendKeys("test9@example.com");
     }
     @And("user fills Password fields \"P@ssw0rd\" \"P@ssw0rd\"")
                 public void fills_password()

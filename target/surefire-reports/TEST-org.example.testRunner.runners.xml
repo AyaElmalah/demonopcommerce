@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.testRunner.runners" time="1.998" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.testRunner.runners" time="345.269" tests="19" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\ENG AMR\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\apache-maven-3.8.6\demonopcommerce\target\test-classes;C:\apache-maven-3.8.6\demonopcommerce\target\classes;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-java\4.3.0\selenium-java-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-api\4.3.0\selenium-api-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.3.0\selenium-chrome-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ENG AMR\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ENG AMR\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ENG AMR\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ENG AMR\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ENG AMR\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ENG AMR\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ENG AMR\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ENG AMR\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.3.0\selenium-chromium-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-json\4.3.0\selenium-json-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.3.0\selenium-devtools-v101-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.3.0\selenium-devtools-v102-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.3.0\selenium-devtools-v103-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.3.0\selenium-devtools-v85-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.3.0\selenium-edge-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.3.0\selenium-firefox-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.3.0\selenium-ie-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.3.0\selenium-opera-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.3.0\selenium-remote-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-api\1.15.0\opentelemetry-api-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-context\1.15.0\opentelemetry-context-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.15.0\opentelemetry-exporter-logging-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.15.0\opentelemetry-sdk-metrics-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.15.0-alpha\opentelemetry-sdk-logs-1.15.0-alpha.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.15.0\opentelemetry-sdk-common-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.15.0\opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.15.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.15.0\opentelemetry-sdk-trace-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.15.0\opentelemetry-sdk-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.15.0-alpha\opentelemetry-semconv-1.15.0-alpha.jar;C:\Users\ENG AMR\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ENG AMR\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\ENG AMR\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ENG AMR\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ENG AMR\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ENG AMR\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ENG AMR\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ENG AMR\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-http\4.3.0\selenium-http-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.3.0\selenium-safari-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-support\4.3.0\selenium-support-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-java\7.3.4\cucumber-java-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-core\7.3.4\cucumber-core-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-gherkin\7.3.4\cucumber-gherkin-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.3.4\cucumber-gherkin-messages-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-expressions\15.1.1\cucumber-expressions-15.1.1.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\datatable\7.3.4\datatable-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-plugin\7.3.4\cucumber-plugin-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\docstring\7.3.4\docstring-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\html-formatter\19.1.0\html-formatter-19.1.0.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\ENG AMR\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-testng\7.3.4\cucumber-testng-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\ENG AMR\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\ENG AMR\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\ENG AMR\.m2\repository\io\github\bonigarcia\webdrivermanager\5.2.1\webdrivermanager-5.2.1.jar;C:\Users\ENG AMR\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ENG AMR\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\ENG AMR\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\ENG AMR\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\ENG AMR\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\ENG AMR\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ENG AMR\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ENG AMR\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ENG AMR\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ENG AMR\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ENG AMR\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ENG AMR\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ENG AMR\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ENG AMR\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\ENG AMR\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\ENG AMR\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\ENG AMR\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ENG AMR\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ENG AMR\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\ENG AMR\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\ENG AMR\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\ENG AMR\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;"/>
@@ -18,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ENG AMR\AppData\Local\Temp\surefire7428214197868546161\surefirebooter419880639824898316.jar C:\Users\ENG AMR\AppData\Local\Temp\surefire7428214197868546161 2022-07-19T20-51-49_055-jvmRun1 surefire5363443520811976941tmp surefire_0534188665505062257tmp"/>
+    <property name="sun.java.command" value="C:\Users\ENG AMR\AppData\Local\Temp\surefire487170515333454029\surefirebooter655042884862646505.jar C:\Users\ENG AMR\AppData\Local\Temp\surefire487170515333454029 2022-07-27T21-46-00_378-jvmRun1 surefire1680021903236250653tmp surefire_06302478518994184354tmp"/>
     <property name="surefire.test.class.path" value="C:\apache-maven-3.8.6\demonopcommerce\target\test-classes;C:\apache-maven-3.8.6\demonopcommerce\target\classes;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-java\4.3.0\selenium-java-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-api\4.3.0\selenium-api-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.3.0\selenium-chrome-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ENG AMR\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ENG AMR\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ENG AMR\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ENG AMR\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ENG AMR\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ENG AMR\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ENG AMR\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ENG AMR\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.3.0\selenium-chromium-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-json\4.3.0\selenium-json-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.3.0\selenium-devtools-v101-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.3.0\selenium-devtools-v102-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.3.0\selenium-devtools-v103-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.3.0\selenium-devtools-v85-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.3.0\selenium-edge-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.3.0\selenium-firefox-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.3.0\selenium-ie-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.3.0\selenium-opera-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.3.0\selenium-remote-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-api\1.15.0\opentelemetry-api-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-context\1.15.0\opentelemetry-context-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.15.0\opentelemetry-exporter-logging-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.15.0\opentelemetry-sdk-metrics-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.15.0-alpha\opentelemetry-sdk-logs-1.15.0-alpha.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.15.0\opentelemetry-sdk-common-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.15.0\opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.15.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.15.0\opentelemetry-sdk-trace-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.15.0\opentelemetry-sdk-1.15.0.jar;C:\Users\ENG AMR\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.15.0-alpha\opentelemetry-semconv-1.15.0-alpha.jar;C:\Users\ENG AMR\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ENG AMR\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\ENG AMR\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ENG AMR\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ENG AMR\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ENG AMR\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ENG AMR\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ENG AMR\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ENG AMR\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-http\4.3.0\selenium-http-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.3.0\selenium-safari-driver-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\org\seleniumhq\selenium\selenium-support\4.3.0\selenium-support-4.3.0.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-java\7.3.4\cucumber-java-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-core\7.3.4\cucumber-core-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-gherkin\7.3.4\cucumber-gherkin-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.3.4\cucumber-gherkin-messages-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-expressions\15.1.1\cucumber-expressions-15.1.1.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\datatable\7.3.4\datatable-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-plugin\7.3.4\cucumber-plugin-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\docstring\7.3.4\docstring-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\html-formatter\19.1.0\html-formatter-19.1.0.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\ENG AMR\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ENG AMR\.m2\repository\io\cucumber\cucumber-testng\7.3.4\cucumber-testng-7.3.4.jar;C:\Users\ENG AMR\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\ENG AMR\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\ENG AMR\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\ENG AMR\.m2\repository\io\github\bonigarcia\webdrivermanager\5.2.1\webdrivermanager-5.2.1.jar;C:\Users\ENG AMR\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ENG AMR\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\ENG AMR\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\ENG AMR\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\ENG AMR\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\ENG AMR\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ENG AMR\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ENG AMR\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ENG AMR\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ENG AMR\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ENG AMR\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ENG AMR\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ENG AMR\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ENG AMR\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\ENG AMR\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\ENG AMR\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\ENG AMR\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ENG AMR\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ENG AMR\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\ENG AMR\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\ENG AMR\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\ENG AMR\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ENG AMR"/>
@@ -31,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ENG AMR\AppData\Local\Temp\surefire7428214197868546161\surefirebooter419880639824898316.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ENG AMR\AppData\Local\Temp\surefire487170515333454029\surefirebooter655042884862646505.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,61 +62,370 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="setUpClass[org.testng.TestRunner@47faa49c](0)" classname="org.example.testRunner.runners" time="1.799">
-    <failure message="Failed to parse resource at: file:///C:/apache-maven-3.8.6/demonopcommerce/src/main/resources/features/%20F06_homeSliders.feature&#10;(5:3): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got &apos;Scenario : first slider is clickable on home page&apos;&#10;(9:3): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got &apos;Scenario 2: second slider is clickable on home page&apos;" type="io.cucumber.core.gherkin.FeatureParserException"><![CDATA[io.cucumber.core.gherkin.FeatureParserException: 
-Failed to parse resource at: file:///C:/apache-maven-3.8.6/demonopcommerce/src/main/resources/features/%20F06_homeSliders.feature
-(5:3): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Scenario : first slider is clickable on home page'
-(9:3): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Scenario 2: second slider is clickable on home page'
-	at io.cucumber.core.gherkin.messages.GherkinMessagesFeatureParser.parse(GherkinMessagesFeatureParser.java:43)
-	at io.cucumber.core.feature.FeatureParser.parseResource(FeatureParser.java:45)
-	at java.util.function.BiFunction.lambda$andThen$0(BiFunction.java:70)
-	at io.cucumber.core.resource.ResourceScanner.lambda$processResource$1(ResourceScanner.java:79)
-	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:75)
-	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:60)
-	at java.nio.file.Files.walkFileTree(Files.java:2670)
-	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:53)
-	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
-	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
-	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
-	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
-	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
-	at io.cucumber.testng.TestNGCucumberRunner.<init>(TestNGCucumberRunner.java:122)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
+  <testcase name="runScenario[&quot;guest user could register with valid data successfully&quot;, &quot;F01_Register | users could register with new accounts&quot;](1)" classname="org.example.testRunner.runners" time="20.357">
+    <system-out><![CDATA[true
+]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 52258
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:46:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:46:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could login with valid email and password&quot;, &quot;F02_Login | users could use login functionality to use their accounts&quot;](2)" classname="org.example.testRunner.runners" time="21.435">
+    <system-out><![CDATA[https://demo.nopcommerce.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 52864
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:46:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:46:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could login with invalid email and password&quot;, &quot;F02_Login | users could use login functionality to use their accounts&quot;](3)" classname="org.example.testRunner.runners" time="30.351">
+    <system-out><![CDATA[rgba(228, 67, 75, 1)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 55267
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:46:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:46:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could change currency feature&quot;, &quot;Change Currency Feature&quot;](4)" classname="org.example.testRunner.runners" time="23.549">
+    <system-out><![CDATA[€1032.00
+€1548.00
+€210.70
+€21.50
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 55449
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:47:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:47:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could search using product name&quot;, &quot;Search Feature&quot;](5)" classname="org.example.testRunner.runners" time="20.006">
+    <system-out><![CDATA[book
+ Count number of search results =1
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 59313
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:47:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:47:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could search using product name&quot;, &quot;Search Feature&quot;](6)" classname="org.example.testRunner.runners" time="17.605">
+    <system-out><![CDATA[laptop
+ Count number of search results =1
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 58288
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:48:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:48:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could search using product name&quot;, &quot;Search Feature&quot;](7)" classname="org.example.testRunner.runners" time="17.41">
+    <system-out><![CDATA[nike
+ Count number of search results =1
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 52106
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:48:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:48:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could search for product using sku&quot;, &quot;Search Feature&quot;](8)" classname="org.example.testRunner.runners" time="20.204">
+    <system-out><![CDATA[SCI_FAITH
+ Count number of search results =1
+expected name is SCI_FAITH
+actual name is SCI_FAITH
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 49408
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:48:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:48:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could search for product using sku&quot;, &quot;Search Feature&quot;](9)" classname="org.example.testRunner.runners" time="22.483">
+    <system-out><![CDATA[APPLE_CAM
+ Count number of search results =1
+expected name is APPLE_CAM
+actual name is APPLE_CAM
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 64908
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:49:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:49:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could search for product using sku&quot;, &quot;Search Feature&quot;](10)" classname="org.example.testRunner.runners" time="22.225">
+    <system-out><![CDATA[SF_PRO_11
+ Count number of search results =1
+expected name is SF_PRO_11
+actual name is SF_PRO_11
+
+@smoke
+Scenario: guest user could register with valid data successfully &amp#27;[90m# src/main/resources/features/F01_Register.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser go to register page&amp#27;[0m                                 &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.goRegisterPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser select gender type&amp#27;[0m                                   &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.select_gender()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter first name "automation" and last name "tester"&amp#27;[0m  &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.enter_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter date of birth&amp#27;[0m                                   &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.enter_date()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter email "test@example.com" field&amp#27;[0m                  &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.enter_email()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser fills Password fields "P@ssw0rd" "P@ssw0rd"&amp#27;[0m           &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.fills_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on register button&amp#27;[0m                             &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.click_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msuccess message is displayed&amp#27;[0m                              &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.success_message()&amp#27;[0m
+
+@smoke
+Scenario: user could login with valid email and password &amp#27;[90m# src/main/resources/features/F02_Login.feature:5&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser go to login page&amp#27;[0m                            &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser login with valid &amp#27;[0m&amp#27;[32m&amp#27;[1m"test9@example.com"&amp#27;[0m         &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.userLoginWithValid(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalid &amp#27;[0m&amp#27;[32m&amp#27;[1m"P@ssw0rd"&amp#27;[0m                                   &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.valid(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser press on login button&amp#27;[0m                         &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser login to the system successfully&amp#27;[0m             &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.userLoginToTheSystemSuccessfully()&amp#27;[0m
+
+@smoke
+Scenario: user could login with invalid email and password &amp#27;[90m# src/main/resources/features/F02_Login.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser go to login page&amp#27;[0m                              &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser login with invalid &amp#27;[0m&amp#27;[32m&amp#27;[1m"test000@example.com"&amp#27;[0m       &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.userLoginWithInvalid(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32minvalid &amp#27;[0m&amp#27;[32m&amp#27;[1m"P@ssw0rd"&amp#27;[0m                                   &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.invalid(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser press on login button&amp#27;[0m                           &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser could not login to the system&amp#27;[0m                  &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.userCouldNotLoginToTheSystem()&amp#27;[0m
+
+@smoke
+Scenario: user could change currency feature         &amp#27;[90m# src/main/resources/features/F03_currencies.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser go to home page&amp#27;[0m                         &amp#27;[90m# org.example.stepDefs.D03_currenciesStepDef.home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mSelect Euro currency from the dropdown list&amp#27;[0m   &amp#27;[90m# org.example.stepDefs.D03_currenciesStepDef.select_Euro()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mEuro Symbol (â‚¬) is shown on the four products&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D03_currenciesStepDef.euro_symbol()&amp#27;[0m
+
+@smoke
+Scenario Outline: user could search using product name &amp#27;[90m# src/main/resources/features/F04_Search.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to home page&amp#27;[0m                    &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter product name as &amp#27;[0m&amp#27;[32m&amp#27;[1m"book"&amp#27;[0m                  &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.iEnterProductNameAs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m                     &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mproducts list will appears&amp#27;[0m                      &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.productsListWillAppears()&amp#27;[0m
+
+@smoke
+Scenario Outline: user could search using product name &amp#27;[90m# src/main/resources/features/F04_Search.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to home page&amp#27;[0m                    &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter product name as &amp#27;[0m&amp#27;[32m&amp#27;[1m"laptop"&amp#27;[0m                &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.iEnterProductNameAs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m                     &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mproducts list will appears&amp#27;[0m                      &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.productsListWillAppears()&amp#27;[0m
+
+@smoke
+Scenario Outline: user could search using product name &amp#27;[90m# src/main/resources/features/F04_Search.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to home page&amp#27;[0m                    &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter product name as &amp#27;[0m&amp#27;[32m&amp#27;[1m"nike"&amp#27;[0m                  &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.iEnterProductNameAs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m                     &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mproducts list will appears&amp#27;[0m                      &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.productsListWillAppears()&amp#27;[0m
+
+@smoke
+Scenario Outline: user could search for product using sku &amp#27;[90m# src/main/resources/features/F04_Search.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to home page&amp#27;[0m                       &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter product name using sku as &amp#27;[0m&amp#27;[32m&amp#27;[1m"SCI_FAITH"&amp#27;[0m      &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.iEnterProductNameUsingSkuAs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m                        &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32massertion to verify name of &amp#27;[0m&amp#27;[32m&amp#27;[1m"SCI_FAITH"&amp#27;[0m            &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.assertionToVerifyNameOf(java.lang.String)&amp#27;[0m
+
+@smoke
+Scenario Outline: user could search for product using sku &amp#27;[90m# src/main/resources/features/F04_Search.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to home page&amp#27;[0m                       &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter product name using sku as &amp#27;[0m&amp#27;[32m&amp#27;[1m"APPLE_CAM"&amp#27;[0m      &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.iEnterProductNameUsingSkuAs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m                        &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32massertion to verify name of &amp#27;[0m&amp#27;[32m&amp#27;[1m"APPLE_CAM"&amp#27;[0m            &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.assertionToVerifyNameOf(java.lang.String)&amp#27;[0m
+
+@smoke
+Scenario Outline: user could search for product using sku &amp#27;[90m# src/main/resources/features/F04_Search.feature:24&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to home page&amp#27;[0m                       &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter product name using sku as &amp#27;[0m&amp#27;[32m&amp#27;[1m"SF_PRO_11"&amp#27;[0m      &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.iEnterProductNameUsingSkuAs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m                        &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32massertion to verify name of &amp#27;[0m&amp#27;[32m&amp#27;[1m"SF_PRO_11"&amp#27;[0m            &amp#27;[90m# org.example.stepDefs.D04]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 58187
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:49:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:49:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;use Actions class in Selenium framework to hover on one of main categories then click on sub category&quot;, &quot;hoverCategories Feature&quot;](11)" classname="org.example.testRunner.runners" time="12.382">
+    <system-out><![CDATA[expectedTitle Jewelry
+actualTitle Jewelry
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 50690
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:49:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:49:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;first slider is clickable on home page&quot;, &quot;homeSliders Feature&quot;](12)" classname="org.example.testRunner.runners" time="10.101">
+    <failure message="The following asserts failed:&#10;	expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at org.example.stepDefs.D06_homeSlidersStepDef.directUserToExpectedUrl(D06_homeSlidersStepDef.java:30)
+	at ✽.direct user to expected url(file:///C:/apache-maven-3.8.6/demonopcommerce/src/main/resources/features/F06_homeSliders.feature:6)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 65274
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:49:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:49:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;second slider is clickable on home page&quot;, &quot;homeSliders Feature&quot;](13)" classname="org.example.testRunner.runners" time="10.198">
+    <failure message="The following asserts failed:&#10;	expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at org.example.stepDefs.D06_homeSlidersStepDef.directUserToExpectedSecondSlideUrl(D06_homeSlidersStepDef.java:44)
+	at ✽.direct user to expected second slide url(file:///C:/apache-maven-3.8.6/demonopcommerce/src/main/resources/features/F06_homeSliders.feature:10)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 52854
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:50:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:50:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user opens facebook link&quot;, &quot;users could open followUs links&quot;](14)" classname="org.example.testRunner.runners" time="16.282">
+    <system-out><![CDATA[current url https://www.facebook.com/nopCommerce
+current title NopCommerce - Home | Facebook
+https://demo.nopcommerce.com/
+nopCommerce demo store
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 49241
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:50:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:50:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user opens twitter link&quot;, &quot;users could open followUs links&quot;](15)" classname="org.example.testRunner.runners" time="17.969">
+    <system-out><![CDATA[current url https://twitter.com/nopCommerce
+current title nopCommerce (@nopCommerce) / Twitter
+https://demo.nopcommerce.com/
+nopCommerce demo store
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 55772
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:50:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:50:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user opens rss link&quot;, &quot;users could open followUs links&quot;](16)" classname="org.example.testRunner.runners" time="13.959">
+    <failure message="Index: 1, Size: 1" type="java.lang.IndexOutOfBoundsException"><![CDATA[java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at org.example.stepDefs.D07_followUsStepDef.isOpenedInNewTab(D07_followUsStepDef.java:26)
+	at ✽."https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab(file:///C:/apache-maven-3.8.6/demonopcommerce/src/main/resources/features/F07_followUs.feature:14)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 57577
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:50:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:50:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user opens youtube link&quot;, &quot;users could open followUs links&quot;](17)" classname="org.example.testRunner.runners" time="15.897">
+    <system-out><![CDATA[current url https://www.youtube.com/user/nopCommerce
+current title nopCommerce - YouTube
+https://demo.nopcommerce.com/
+nopCommerce demo store
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 59069
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:51:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:51:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;add product to your wishlist&quot;, &quot;Wishlist Feature&quot;](18)" classname="org.example.testRunner.runners" time="12.423">
+    <system-out><![CDATA[rgba(75, 176, 122, 1)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 63858
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:51:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:51:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;click on succes message and check number of wishlist&quot;, &quot;Wishlist Feature&quot;](19)" classname="org.example.testRunner.runners" time="15.698">
+    <system-out><![CDATA[1
+the count of number =1
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 54730
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 9:51:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 27, 2022 9:51:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>
 </testsuite>

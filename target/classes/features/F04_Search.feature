@@ -7,6 +7,7 @@
 
 When I enter product name as "<product>"
 And  user clicks on search button
+   Then  products list will appears
   Examples:
   | product |
     | book |
@@ -15,6 +16,7 @@ And  user clicks on search button
     Scenario Outline: user could search for product using sku
       When I enter product name using sku as "<product>"
       And user clicks on search button
+      Then  assertion to verify name of "<product>"
       Examples:
         | product |
       | SCI_FAITH |
